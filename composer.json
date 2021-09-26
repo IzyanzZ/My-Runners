@@ -1,0 +1,25 @@
+{
+    "name": "izyanz/my-runner",
+    "keywords": [
+        "php-runner"
+    ],
+    "authors": [
+        {
+            "name": "IzyanzZ",
+            "email": "izyanzytbusiness@gmail.com"
+        }
+    ],
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Izyanz\\MyRunner\\": "src/"
+        }
+    },
+    "require": {
+        "symfony/console": "^5.3",
+        "symfony/process": "^5.3"
+    },
+    "bin": [
+        "bin/runner"
+    ]
+}
